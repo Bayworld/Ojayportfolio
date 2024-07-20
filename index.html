@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oj Ayo Makanaki - Official Website</title>
+    <link rel="icon" type="image/x-icon" href="assets/ojaysecond.webp">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Oj Ayo Makanaki</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Oj Ayo Makanaki</div>
+      <div class="hamburger-menu">
+       <div class="flexmode">
+        <div class="theme-toggle" onclick="toggleMode()">
+              <i id="theme-icon" class="fas fa-sun"></i>
+            </div>
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+        <div class="menu-links">
+          <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="project.html" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/ojaypassport.png" alt="Oj Ayo Makanaki profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Oj Ayo Makanaki</h1>
+        <p class="section__text__p2">Yoruba Actor & ECOWAS Ambassador</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('https://wa.me/+2348055644866')"
+            
+          >
+            Available
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          />
+          <img
+            src="./assets/twitter.png"
+            alt="My Twitter profile"
+            class="icon"
+            onclick="location.href='https://x.com/OJORCSM/'"
+            />
+          <img
+            src="./assets/instagram.jpeg"
+            alt="My Instagram profile"
+            class="icon"
+            onclick="location.href='https://www.instagram.com/royalcomputersystems/'"
+            />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>10+ years <br />Acting in Yoruba Movies</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.A. Theatre Arts<br />M.A. African Studies</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Oj Ayo Makanaki is a renowned Yoruba actor known for his dynamic roles in numerous movies. With over a decade of experience in the film industry, he has captivated audiences with his compelling performances. Apart from his acting career, Oj Ayo is also an ambassador for ECOWAS, promoting cultural heritage and regional integration.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+      <div
+      class="btn2 btn-color-5 project-btn"
+      onclick="location.href='about.html'"
+    >
+      Read More
+    </div>
+      
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Filmography</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Lead Role</h3>
+                  <p>Ojay Makanaki (2020)</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Supporting Role</h3>
+                  <p>King of Thieves (2021)</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Guest Appearance</h3>
+                  <p>Jenifa's Diary (2019)</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Ambassadorial Roles</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>ECOWAS</h3>
+                  <p>Cultural Heritage Promotion</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>UNICEF</h3>
+                  <p>Child Rights Advocacy</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>UNESCO</h3>
+                  <p>Educational Campaigns</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <div class="video-container">
+                <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/yOn7dgq7EaM?si=h3asBCRW7bbQNazV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+                <iframe src="https://www.youtube.com/embed/yOn7dgq7EaM?si=h3asBCRW7bbQNazV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <!-- <iframe src="https://www.youtube.com/embed/videoid1" frameborder="0" allowfullscreen></iframe> -->
+                <h2 class="experience-sub-title project-title">Movie: ITAKUN</h2>
+
+                
+                <div class="video-info">
+                    <div class="video-title">ITAKUN LATEST YORUBA MOVIE 2024 
+                    </div>
+                    <!-- <div class="video-description">Description for Video 1</div> -->
+                </div>
+            </div>
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href=''"
+              >
+                More Info
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/Wt8UwerJiQE?si=fiN_J9uDsz2M_bvx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                <div class="video-info">
+                  <h2 class="experience-sub-title project-title">Movie: IDI ILEKE</h2>
+  
+                  <div class="video-title">IDI ILEKE -Lastest Yoruba Movies 2024</div>
+                    <!-- <div class="video-description">Description for Video 1</div> -->
+                </div>
+            </div>
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href=''"
+              >
+                More Info
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/vRbIFMi7KKI?si=ddQ2n1kPzGwtmfDf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                <div class="video-info">
+                    <div class="video-title">IYAWO ALFA Latest Yoruba Movie 2023</div>
+                    <!-- <div class="video-description">Description for Video 1</div> -->
+                </div>
+            </div>
+          </div>
+          <h2 class="experience-sub-title project-title">IYAWO ALFA</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://www.youtube.com/@rcsmtv'"
+            >
+              Subscribe
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='project.html'"
+            >
+              More Videos
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href=''"
+            >
+              More Info
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#contact'"
+    />
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img
+          src="./assets/email.png"
+          alt="Email icon"
+          class="icon contact-icon email-icon"
+        />
+        <p><a href="mailto:info@ojaymakanaki.com">info@ojaymakanaki.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img
+          src="./assets/youtube.png"
+          alt="LinkedIn icon"
+          class="icon contact-icon"
+        />
+        <p><a href="https://www.youtube.com/@rcsmtv">YouTube</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 RCSMTV. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
+             
