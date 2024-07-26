@@ -224,6 +224,12 @@ section {
 }
 
 /* PROFILE SECTION */
+.profile-pic {
+  width: 200px; 
+  height: auto; 
+  border-radius: 50%; 
+  object-fit: cover; 
+}
 
 #profile {
   display: flex;
